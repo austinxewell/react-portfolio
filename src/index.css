@@ -300,3 +300,9 @@ a {
 .navActive {
   color: var(--secondary);
 }
+
+.portfolio-img {
+  border-radius: 20px;
+  width: 300px;
+  height: 200px;
+}
