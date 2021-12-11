@@ -34,9 +34,9 @@ function Contact() {
 
   return (
     <section className="contactCard">
-        <h2>Contact Me!</h2>
+        
       <fieldset>
-          <legend>Contact Form</legend>
+          <legend><h2>Contact Me!</h2></legend>
       <form className="contactForm" id="contact-form" onSubmit={handleSubmit}>
         <div>
           <label htmlFor="name">Name:</label>
