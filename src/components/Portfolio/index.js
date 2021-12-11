@@ -8,9 +8,9 @@ function Portfolio() {
 
     return(
         <section>
-            <h2 className="mx-2">What I have acomplished</h2>
-            <p className="mx-1">My portfolio is created in react and is designed to give a brief showcase of my work as well as my ability to create SPA's with up-to-date technology.<br/><br/><i>Please note:</i>  All links on this page will navigate you to a new tab.</p>
-            <container className="flex-row  cardContainer">
+            <h2 className="mx-2">A Small Taste of My Accomplishments!</h2>
+            <p className="mx-1">My portfolio is created in react and is designed to give a brief showcase of my work as well as my ability to create SPA's with up-to-date technology. Please feel free to checkout my GitHub repositories as well as my deployed applications.<br/><br/><i>Please note:</i>  All links on this page will navigate you to a new tab.</p>
+            <div className="flex-row  cardContainer">
                 <div className="projectCard">
                     <ul>
                         <li><h3>Tech Blog</h3></li>
@@ -49,7 +49,7 @@ function Portfolio() {
                     </ul>
                     <a href="https://sleepy-beach-30576.herokuapp.com/" target="_blank"><img alt="Budget Tracker" src={budgetTrackerImg} className="portfolio-img mx-2"></img></a>
                 </div>
-            </container>
+            </div>
         </section>
     )
 }

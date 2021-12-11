@@ -93,6 +93,11 @@ li {
   list-style: none;
 }
 
+fieldset {
+  display: inline;
+  border: 3px solid black;
+}
+
 .flex-row {
   display: flex;
   flex-wrap: wrap;
@@ -206,6 +211,8 @@ li {
   padding-top: 10px;
   padding-left: 10px;
   filter: drop-shadow(16px 16px 10px black);
+  float: left;
+  margin-right: 20px;
 }
 
 .aboutInfo {
@@ -214,6 +221,7 @@ li {
 
 .cardContainer {
   justify-content: center;
+  margin-bottom: 10px;
 }
 
 footer {
@@ -244,4 +252,38 @@ padding-top: 40px;
 float: right;
 margin-right: 10px;
 margin-top: 15px;
+}
+
+.messageText {
+  width: 500px;
+  height: 150px;
+}
+
+.contactCard {
+  text-align: center;
+}
+
+.contactForm {
+  display: inline-block;
+}
+
+button {
+  border-radius: 5px;
+	color: black;
+	padding: 2px 4px;
+	margin-left: -2px;
+	margin-right: -2px;
+  padding-top: 2px;
+  font-size: 20px;	
+  text-decoration: none;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+button:hover {
+  font-style: italic;
+  cursor: pointer;
+}
+
+.twitterIcon {
+  margin-left: 3px;
 }
