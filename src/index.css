@@ -26,9 +26,13 @@ body {
   line-height: 1.5;
   font-size: 18px;
   letter-spacing: .1em;
+
+  font-family: 'Poiret One', cursive;
+}
+
+.background {
   background-image: url(/src/assets/background/5651978.png) ;
   background-size: cover;
-  font-family: 'Poiret One', cursive;
 }
 
 h1,
@@ -224,4 +228,20 @@ footer {
   background-color: none;
   text-decoration: none;
   color: #000000;
+}
+
+.icon {
+  height: 50px;
+}
+
+.iconLayout {
+float: none;
+text-align: center;
+padding-top: 40px;
+}
+
+.copyright {
+float: right;
+margin-right: 10px;
+margin-top: 15px;
 }
