@@ -2,6 +2,7 @@ import React from "react";
 import techBlogImg from "../../assets/portfolio/techblog-homepage.jpg"
 import gitNShapeImg from "../../assets/portfolio/git-n-shape.jpg"
 import weatherDashboardImg from "../../assets/portfolio/weather-dashboard.jpg"
+import budgetTrackerImg from "../../assets/portfolio/budget-tracker.jpg"
 
 function Portfolio(props) {
 
@@ -14,7 +15,9 @@ function Portfolio(props) {
     return(
         <section>
             <h2 className="mx-2">What I have acomplished</h2>
-            <p className="mx-1">Photos will navigate you to a new tab with the deployed application.</p>
+            <p className="mx-1">This portfolio is created in react and is designed to give a brief showcase of my work as well as my ability to create SPA's with up-to-date tech.
+            <br/><br/>
+            **Photos will navigate you to a new tab with the deployed application**</p>
             <div className="flex-row">
                 <div className="projectCard">
                     <ul>
@@ -44,7 +47,23 @@ function Portfolio(props) {
                     </ul>
                     <a href="https://austinxewell.github.io/weather-dashboard/" target="_blank"><img alt="Weather Dashboard" src={weatherDashboardImg} className="portfolio-img mx-2"></img></a>
                 </div>
+
+                <div className="projectCard">
+                    <ul>
+                        <li><h3>Budget Tracker</h3></li>
+                        <li><a href="https://github.com/austinxewell/Budget-Tracker-PWA" target="_blank">Repository</a>
+                        <br/>
+                        <p className="projectDescription">Budget Tracker, a PWA application that will work offline and update when connection is established. You are able to name your transaction and track wether it adds or subtracts funds to your budget plan.</p></li>
+                    </ul>
+                    <a href="https://sleepy-beach-30576.herokuapp.com/" target="_blank"><img alt="Budget Tracker" src={budgetTrackerImg} className="portfolio-img mx-2"></img></a>
+                </div>
+
+
+
+
             </div>
+
+
 
             <section>
                 <h1>{currentCategory.name}</h1>

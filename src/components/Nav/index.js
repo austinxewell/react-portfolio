@@ -1,36 +1,29 @@
 import React from "react";
+import avi from "../../assets/about/avi.jpg"
 
-function Nav() {
+function Nav(props) {
+    
+    const tabs = ['About', 'Portfolio', 'Contact'];
+
     return (
-<header className="flex-row px-1">
-  <h1>
-    <a href="/">Austin Ewell</a>
-  </h1>
-  <nav>
-    <ul className="flex-row">
-      <li className="mx-2">
-        <a href="#about">
-          About Me
-        </a>
-      </li>
-      <li className="mx-2">
-        <a href="#portfolio">
-          Portfolio
-        </a>
-      </li>
-      <li className="mx-2">
-        <a href="#contact">
-          Contact
-        </a>
-      </li>
-      <li className="mx-2">
-        <a href="#resume">
-          Resume
-        </a>
-      </li>
+    <nav className="flex-row px-1 navBackground">
+      <h1><img src={avi} className="avitar"></img>Austin Ewell</h1>
+      <ul className="flex-row navLayout">
+      {tabs.map(tab => (
+        <li className="mx-2" key={tab}>
+          <a
+            href={'#' + tab.toLowerCase()}
+            onClick={() => props.handlePageChange(tab)}
+            className={
+              props.currentPage === tab ? 'nav-link active' : 'nav-link'
+            }
+          >
+            {tab}
+          </a>
+        </li>
+      ))}
     </ul>
   </nav>
-</header>
     )
 }
 

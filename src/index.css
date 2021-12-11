@@ -1,13 +1,6 @@
 
-main {
-	margin: 0 auto;
-	max-width: 90%;
-  padding: 50px 30px;
-}
 :root {
   --primary: #8c54ff;
-  --secondary: #F3A847;
-  --tertiary: #B12704;
   --light: #fafafa;
   --dark: #000000;
   --darker: #111111;
@@ -34,8 +27,9 @@ body {
   line-height: 1.5;
   font-size: 18px;
   letter-spacing: .1em;
-  background: var(--dark);
-  color: var(--light);
+  background-image: url(/src/assets/background/5651978.png) ;
+  /* background: var(--light); */
+  color: var(--dark);
   font-family: 'Poiret One', cursive;
 
 }
@@ -276,7 +270,7 @@ textarea {
 }
 
 button {
-	background: var(--primary);
+	background: var(--light);
 	border: 0;
 	border-radius: 5px;
 	color: #fff;
@@ -289,11 +283,13 @@ button {
 
 a {
 	border-radius: 5px;
-	color: var(--primary);
+	color: var(--light);
 	font-weight: 600;
 	padding: 2px 4px;
 	margin-left: -2px;
 	margin-right: -2px;
+  -webkit-text-stroke: 2px black;
+  font-size: x-large;
 	
 }
 
@@ -315,4 +311,19 @@ a {
 .projectDescription {
   width: 270px;
   font-size: small;
+}
+
+.navLayout {
+  margin-top: auto;
+  margin-left: auto;
+}
+
+.navBackground {
+  background-image: url(/src/assets/background/default-header.png);
+  background-size: cover;
+}
+
+.avitar {
+  width: 50px;
+  height: 100%;
 }
