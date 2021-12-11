@@ -1,0 +1,51 @@
+[
+    {
+        "name": "Tech Blog",
+        "repoLink": "https://github.com/austinxewell/tech-blog",
+        "description": "Tech Blog, a full Stack application designed to work as a blog site for all tech related issues. You can log in, post an issue, and comment on other users posts. Data is stored and pulled from a SQL DB.",
+        "deployLink": "https://warm-cliffs-74985.herokuapp.com/",
+        "imgAlt": "Tech Blog",
+        "imgName": "techBlogImg"
+    },
+    {
+        "name": "Git-N-Shape",
+        "repoLink": "https://github.com/austinxewell/git-n-shape",
+        "description": "Git-N-Shape, a full Stack project designed to pull data from a web API to help generate a workout routine and meal plan for someone starting their fitness experience. Plans can be saved to your local storage.",
+        "deployLink": "https://austinxewell.github.io/git-n-shape/",
+        "imgAlt": "Git-N-Shape",
+        "imgName": "gitNShapeImg"
+    },
+    {
+        "name": "Weather Dash",
+        "repoLink": "https://github.com/austinxewell/weather-dashboard",
+        "description": "Weather Dash, this project is designed to display the use of the moment package, pulling data from a web API, storing data to the local host, while also making local host data a reusable search history.",
+        "deployLink": "https://austinxewell.github.io/weather-dashboard/",
+        "imgAlt": "Weather Dashboard",
+        "imgName": "weatherDashboardImg"
+    },
+    {
+        "name": "Budget Track",
+        "repoLink": "https://github.com/austinxewell/Budget-Tracker-PWA",
+        "description": "Budget Tracker is a PWA application that will work offline and update when connection is established. You are able to name your transaction and track wether it adds or subtracts funds to your budget plan.",
+        "deployLink": "https://sleepy-beach-30576.herokuapp.com/",
+        "imgAlt": "Budget Tracker",
+        "imgName": "budgetTrackerImg"
+
+    },
+    {
+        "name": "FS Market",
+        "repoLink": "https://github.com/austinxewell/Full-Stack-Marketplace",
+        "description": "Budget Tracker is a PWA application that will work offline and update when connection is established. You are able to name your transaction and track wether it adds or subtracts funds to your budget plan.",
+        "deployLink": "https://mysterious-garden-73946.herokuapp.com/",
+        "imgAlt": "Full Stack Marketplace",
+        "imgName": "fullStackMarketplaceImg"
+    },
+    {
+        "name": "Emp Tracker",
+        "repoLink": "https://github.com/austinxewell/employee-tracker",
+        "description": "Employee Tracker is a SQL DB command line application designed to help create structure in your employee/company data. You can create, delete, change, and modify relations all in a command line setting.",
+        "deployLink": "https://watch.screencastify.com/v/ZK4D21GFZMwdPbj6QopQ",
+        "imgAlt": "Employee Tracker",
+        "imgName": "employeeTrackerImg"
+    }
+]
