@@ -3,6 +3,7 @@ import './App.css';
 import Nav from './components/Nav/index'
 import About from './components/About/index'
 import Portfolio from './components/Portfolio';
+import Footer from './components/Footer';
 
 
 
@@ -23,6 +24,7 @@ function App() {
     <body>
       <Nav currentPage={currentPage} handlePageChange={handlePageChange} />
     <div>{renderPage(currentPage)}</div>
+    <Footer />
     </body>
   );
 }

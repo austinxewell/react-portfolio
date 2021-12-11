@@ -1,13 +1,12 @@
 import React from "react";
-import avi from "../../assets/about/avi.jpg"
 
 function Nav(props) {
     
-    const tabs = ['About', 'Portfolio', 'Contact'];
+    const tabs = ['About', 'Portfolio', 'Contact', 'Resume'];
 
     return (
     <nav className="flex-row px-1 navBackground">
-      <h1><img src={avi} className="avitar"></img>Austin Ewell</h1>
+      <h1>Austin Ewell</h1>
       <ul className="flex-row navLayout">
       {tabs.map(tab => (
         <li className="mx-2" key={tab}>
@@ -15,7 +14,7 @@ function Nav(props) {
             href={'#' + tab.toLowerCase()}
             onClick={() => props.handlePageChange(tab)}
             className={
-              props.currentPage === tab ? 'nav-link active' : 'nav-link'
+              props.currentPage === tab ? 'nav-linkActive' : 'nav-link'
             }
           >
             {tab}
