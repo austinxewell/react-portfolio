@@ -10,7 +10,7 @@
   * [Tests](#tests)
   * [Questions](#questions)
   # Installation
-  Clone the repository from the github link provided at the bottom of the page to view actual files. To run this web application visit https://austinxewell.github.io/react-portfolio/
+  Clone the repository from the github link provided at the bottom of the page to view actual files. To run this web application visit https://github.com/austinxewell/react-portfolio
   # Usage
   This is a web application that is simply click and point once visiting the URL https://austinxewell.github.io/react-portfolio/. It is designed to be readable and easy to navigate.
     ![react-about](https://user-images.githubusercontent.com/86080954/145697051-bd503f76-9750-4266-9dbf-b77c75f803e3.JPG)
