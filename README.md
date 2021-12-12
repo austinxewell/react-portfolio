@@ -14,8 +14,8 @@
   # Usage
   This is a web application that is simply click and point once visiting the URL https://austinxewell.github.io/react-portfolio/. It is designed to be readable and easy to navigate.
     ![react-about](https://user-images.githubusercontent.com/86080954/145697051-bd503f76-9750-4266-9dbf-b77c75f803e3.JPG)
-    ![react-contact](https://user-images.githubusercontent.com/86080954/145697058-6f4e2f12-3f0f-4605-8963-88081aec1e3d.JPG)
     ![react-portfolio](https://user-images.githubusercontent.com/86080954/145697062-bb4abd83-a527-4e09-b730-1bf108c1421f.JPG)
+    ![react-contact](https://user-images.githubusercontent.com/86080954/145697058-6f4e2f12-3f0f-4605-8963-88081aec1e3d.JPG)
     ![react-resume](https://user-images.githubusercontent.com/86080954/145697064-56d53842-b460-4349-a0e8-ab2d238ddb31.JPG)
 
   # License
