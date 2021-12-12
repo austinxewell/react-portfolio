@@ -13,9 +13,7 @@ function Footer () {
                 <div className="copyright">
                     &copy;2021 Austin Ewell
                 </div>
-            </div>
-
-          
+            </div>    
         </footer>
     )
 }

@@ -278,3 +278,7 @@ button:hover {
   color: #000000;
   font-size: 15px;
 }
+
+.errorText {
+  color: red;
+}
