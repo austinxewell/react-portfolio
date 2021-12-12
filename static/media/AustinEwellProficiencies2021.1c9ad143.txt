@@ -1,0 +1,22 @@
+﻿List of Austin Ewell’s Developer’s Proficiencies:
+
+
+‣HTML
+‣CSS
+‣GIT
+‣JavaScript
+‣Web APIs
+‣Third-Party APIs
+‣Server-Side APIs
+‣Node.js
+‣OOP
+‣Express.js
+‣SQL
+‣ORM
+‣MVC
+‣NoSQL (MongoDB)
+‣Progressive Web Application (PWA)
+‣React
+‣GraphQL
+‣MERN
+‣State
