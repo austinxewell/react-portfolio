@@ -275,10 +275,16 @@ button:hover {
 .resumeLi {
   background-color: none;
   text-decoration: none;
-  color: #000000;
+  color: var(--dark);
   font-size: 15px;
 }
 
 .errorText {
   color: red;
+}
+
+.emailLink {
+  text-decoration: none;
+  font-size: 20px;
+  color: var(--dark);
 }
