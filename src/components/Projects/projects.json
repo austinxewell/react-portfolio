@@ -35,7 +35,7 @@
     {
         "name": "FS Market",
         "repoLink": "https://github.com/austinxewell/Full-Stack-Marketplace",
-        "description": "Budget Tracker is a PWA application that will work offline and update when connection is established. You are able to name your transaction and track wether it adds or subtracts funds to your budget plan.",
+        "description": "Full Stack Marketplace is a social full stack ecommerce web application. It allows users to sign in/up, create listings, and purchase items. It uses SQLDB to store data and API tech to store and pull uploaded photos.",
         "deployLink": "https://mysterious-garden-73946.herokuapp.com/",
         "imgAlt": "Full Stack Marketplace",
         "imgName": "fullStackMarketplaceImg"
