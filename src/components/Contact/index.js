@@ -32,8 +32,13 @@ function Contact() {
   };
 
   return (
-    <section className='flex-row'>        
-        <fieldset className="contactCard">
+    <section className='contactCard'>      <div className='mx-2'>
+        <h2>Reach me Directly At:</h2>
+        <a href='mailto:austin.ewell86@gmail.com' className='emailLink'>austin.ewell86@gmail.com</a>
+        <p>(801) 231-1314</p>
+        <h2>- OR -</h2>
+      </div>        
+        <fieldset>
             <legend>
                 <h2>Contact Me!</h2>
             </legend>
@@ -58,11 +63,7 @@ function Contact() {
                 <button type="submit">Submit</button>
             </form>
         </fieldset>
-      <div className='mx-2'>
-        <h2>Or Reach me Directly At:</h2>
-        <a href='mailto:austin.ewell86@gmail.com' className='emailLink'>austin.ewell86@gmail.com</a>
-        <p>(801) 231-1314</p>
-      </div>
+
     </section>
   );
 }

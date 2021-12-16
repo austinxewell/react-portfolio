@@ -12,7 +12,7 @@ import proficienciesPdf from "../../assets/download/AustinEwellProficiencies2021
 function Resume() {
     return(
         <div>
-            <h2 className="mx-2">How to Reach Me!</h2>
+            <h2 className="mx-2">Resume Info!</h2>
             <p className="mx-1">Thank you so much for taking the time to check out my online portfolio!<br/><br/>
             I'd love the oppertunity to discuss ideas and future career moves. I have provided downloadable links to my resume and a list of my developer proficiencies.</p>
             <ul>

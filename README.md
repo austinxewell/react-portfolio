@@ -1,70 +1,33 @@
-# Getting Started with Create React App
+# React Portfolio 
+  [![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)
+  # Description
+  This is a profession portfolio created in react. It is designed to showcase my skills in creating SPA's while also highlighting my past achievments. This SPA will refresh multiple tabs that include an About, Portfolio, Contact, and Resume sections. This app is completely responsive to showcase everything included within the web application.
+  # Table of Contents
+  * [Installation](#installation)
+  * [Usage](#usage)
+  * [License](#license)
+  * [Contributing](#contributing)
+  * [Tests](#tests)
+  * [Questions](#questions)
+  # Installation
+  Clone the repository from the github link provided at the bottom of the page to view actual files. To run this web application visit https://github.com/austinxewell/react-portfolio
+  # Usage
+  This is a web application that is simply click and point once visiting the URL https://austinxewell.github.io/react-portfolio/. It is designed to be readable and easy to navigate.
+    ![react-about](https://user-images.githubusercontent.com/86080954/145697051-bd503f76-9750-4266-9dbf-b77c75f803e3.JPG)
+    ![react-portfolio](https://user-images.githubusercontent.com/86080954/145697062-bb4abd83-a527-4e09-b730-1bf108c1421f.JPG)
+    ![react-contact](https://user-images.githubusercontent.com/86080954/145697058-6f4e2f12-3f0f-4605-8963-88081aec1e3d.JPG)
+    ![react-resume](https://user-images.githubusercontent.com/86080954/145697064-56d53842-b460-4349-a0e8-ab2d238ddb31.JPG)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
+  # License
+  ## The Unlicense
+  A license with no conditions whatsoever which dedicates works to the public domain. Unlicensed works, modifications, and larger works may be distributed under different terms and without source code.
+  View terms and conditions here: [The Unlicense](../utils/licenses/unlicense.txt)
+  # Contributing
+  There are no other contributers to this project.
+  # Tests
+To run test use `npm test`. npm test Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+  # Questions
+  * GitHub user: austinxewell
+  * https://github.com/austinxewell
+  * Reach me at austin.ewell86@gmail.com for additional questions

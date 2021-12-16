@@ -1,8 +1,6 @@
 :root {
-  --primary: #8c54ff;
   --light: #fafafa;
-  --dark: #000000;
-  --darker: #111111;
+  --dark: #000;
   --error: rgb(228, 46, 1);
   --spacing-one: calc(1rem * 0.5);
   --spacing-two: calc(1rem);
@@ -36,10 +34,8 @@ body {
 
 h1,
 h2,
-h3,
-h4,
-h5,
-h6 {
+h3
+{
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
   margin: 5px 0;
@@ -50,40 +46,28 @@ h1 {
   font-size: 4.25rem;
   font-family: 'Permanent Marker', cursive;
   font-style: italic;
-  text-shadow: 2px 2px 8px white;
+  text-shadow: 2px 2px 8px var(--light);
   margin-left: 8px;
   
 }
 
 h2 {
   font-size: 3rem;
-  text-decoration: underline black;
+  text-decoration: underline var(--dark);
   font-family: 'Road Rage', cursive;
 }
 
 h3 {
   font-size: 1.75rem;
-  text-decoration: underline black;
+  text-decoration: underline var(--dark);
   font-family: 'Rock Salt', cursive;
   text-align: left;
-}
-
-h4 {
-  font-size: 1.5rem;
-}
-
-h5 {
-  font-size: 1.25rem;
-}
-
-h6 {
-  font-size: 1rem;
 }
 
 p {
   font-size: 1.1rem;
   margin-top: 0;
-  text-shadow: 2px 2px 8px white;
+  text-shadow: 2px 2px 8px var(--light);
 }
 
 a:hover {
@@ -96,7 +80,7 @@ li {
 
 fieldset {
   display: inline;
-  border: 3px solid black;
+  border: 3px solid var(--dark);
   font-size: 20px;
 }
 
@@ -128,13 +112,13 @@ fieldset {
   padding-top: 2px;
   font-size: 18px;	
   text-decoration: none;
-  text-shadow: 2px 2px black;
+  text-shadow: 2px 2px  var(--dark);
   background-color: rgba(0, 0, 0, 0.4);
 }
 
 .nav-linkActive {
   border-radius: 5px;
-	color: black;
+	color: var(--dark);
 	padding: 2px 4px;
 	margin-left: -2px;
 	margin-right: -2px;
@@ -143,13 +127,11 @@ fieldset {
   text-decoration: none;
   background-color: rgba(241, 241, 241, 0.795);
   font-style: italic;
-  
-
 }
 
 .portfolio-img {
-  border: solid black 2px;
-  box-shadow: 5px 10px black;
+  border: solid   var(--dark) 2px;
+  box-shadow: 5px 10px var(--dark);
   border-radius: 20px;
   width: 300px;
   height: 200px;
@@ -157,7 +139,7 @@ fieldset {
 
 .projectCard {
   border-style: double;
-  border-color: black;
+  border-color:  var(--dark);
 }
 
 .projectDescription {
@@ -187,7 +169,7 @@ fieldset {
 }
 
 .aboutInfo {
-  text-shadow: 2px 2px 4px white;
+  text-shadow: 2px 2px 4px var(--light);
 }
 
 .cardContainer {
@@ -206,7 +188,7 @@ footer {
 .repoLink {
   background-color: none;
   text-decoration: none;
-  color: #000000;
+  color: var(--dark);
   font-size: 25px;
 }
 
@@ -224,7 +206,7 @@ padding-top: 40px;
 float: right;
 margin-right: 10px;
 margin-top: 15px;
-font-size: 20px;
+font-size: 13px;
 }
 
 .messageText {
@@ -234,6 +216,7 @@ font-size: 20px;
 
 .contactCard {
   text-align: center;
+  justify-content: center;
 }
 
 .contactForm {
@@ -242,7 +225,7 @@ font-size: 20px;
 
 button {
   border-radius: 5px;
-	color: black;
+	color: var(--dark);
 	padding: 2px 4px;
 	margin-left: -2px;
 	margin-right: -2px;
@@ -264,7 +247,7 @@ button:hover {
 .slogan {
   font-family: 'Permanent Marker', cursive;
   margin-left: 45px;
-  text-shadow: 2px 2px 8px white;
+  text-shadow: 2px 2px 8px var(--light);
   font-size: 25px;
 }
 
@@ -280,7 +263,7 @@ button:hover {
 }
 
 .errorText {
-  color: red;
+  color: var(--error);
 }
 
 .emailLink {
