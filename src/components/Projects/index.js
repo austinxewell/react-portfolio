@@ -12,7 +12,7 @@ const Project = (props) => {
 
     return (
         <div className="projectCard">
-            <ul>
+            <ul className="cardList">
                 <li><h3>{name}</h3></li>
                 <li className="repoLink"><a className="repoLink" href={repoLink} target="_blank">-Repository Link-</a>
                 <br/>

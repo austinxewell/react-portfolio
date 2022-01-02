@@ -47,5 +47,13 @@
         "deployLink": "https://watch.screencastify.com/v/ZK4D21GFZMwdPbj6QopQ",
         "imgAlt": "Employee Tracker",
         "imgName": "employeeTrackerImg"
+    },
+    {
+        "name": "Deep Thoughts",
+        "repoLink": "https://github.com/austinxewell/deep-thoughts",
+        "description": "Deep Thoughts is a full stack web application built in the MERN stack. It is designed like a typical blog site where you can create users, create thoughts, add reactions to thoughts and even build your friends list.",
+        "deployLink": "https://limitless-shelf-82829.herokuapp.com/",
+        "imgAlt": "Deep Thoughts",
+        "imgName": "deepThoughtsImg"
     }
 ]

@@ -61,7 +61,7 @@ h3 {
   font-size: 1.75rem;
   text-decoration: underline var(--dark);
   font-family: 'Rock Salt', cursive;
-  text-align: left;
+  text-align: center;
 }
 
 p {
@@ -140,11 +140,14 @@ fieldset {
 .projectCard {
   border-style: double;
   border-color:  var(--dark);
+  margin: 2px;
+  background-color: rgb(231, 228, 228);
 }
 
 .projectDescription {
   width: 270px;
   font-size: small;
+  margin: auto;
 }
 
 .navLayout {
@@ -194,6 +197,8 @@ footer {
 
 .icon {
   height: 50px;
+  filter: drop-shadow(4px 4px  16px var(--light));
+  margin-left: 4px;
 }
 
 .iconLayout {
@@ -207,6 +212,7 @@ float: right;
 margin-right: 10px;
 margin-top: 15px;
 font-size: 13px;
+text-shadow: 2px 2px 8px var(--light);
 }
 
 .messageText {
@@ -270,4 +276,11 @@ button:hover {
   text-decoration: none;
   font-size: 20px;
   color: var(--dark);
+}
+
+.cardList{
+  padding: 0;
+  list-style-type: none;
+  align-items: center;
+  text-align: center;
 }

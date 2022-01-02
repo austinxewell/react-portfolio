@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
+import { FormEvent } from 'react';
 import { validateEmail } from '../../utils/helpers';
+import axios from 'axios';
 
 function Contact() {
   const [formState, setFormState] = useState({ name: '', email: '', message: '' });
@@ -31,18 +33,40 @@ function Contact() {
     }
   };
 
+  const formId = 'zMe83qAe';
+  const formSparkUrl = `https://submit-form.com/${formId}`
+
+  const submitForm = async (event: FormEvent) => {
+    event.preventDefault();
+    await postSubmission();
+  };
+
+  const postSubmission = async () => {
+    const payload = {
+      message: 'Test formspark submission',
+    };
+
+    try{
+      const result = await axios.post(formSparkUrl, payload);
+      console.log(result);
+    } catch(err) {
+      console.log(err)
+    }
+  };
+
   return (
     <section className='contactCard'>      <div className='mx-2'>
         <h2>Reach me Directly At:</h2>
         <a href='mailto:austin.ewell86@gmail.com' className='emailLink'>austin.ewell86@gmail.com</a>
         <p>(801) 231-1314</p>
         <h2>- OR -</h2>
+        <p>(For display purposes only)</p>
       </div>        
         <fieldset>
             <legend>
                 <h2>Contact Me!</h2>
             </legend>
-            <form className="contactForm" id="contact-form" onSubmit={handleSubmit}>
+            <form className="contactForm" id="contact-form" onSubmit={submitForm}>
                 <div>
                     <label htmlFor="name">Name:</label>
                     <input type="text" name="name" defaultValue={name} onBlur={handleChange} />
