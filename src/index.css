@@ -164,11 +164,10 @@ fieldset {
   width: 400px;
   border-radius: 50%;
   padding-top: 10px;
-  padding-left: 10px;
   padding-bottom: 8px;
   filter: drop-shadow(16px 16px 10px black);
   float: left;
-  margin-right: 20px;
+  margin-right: 30px;
 }
 
 .aboutInfo {
@@ -284,3 +283,57 @@ button:hover {
   align-items: center;
   text-align: center;
 }
+
+.dropbtn {
+  background-color: #333333;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 20px;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  font-size: 15px;
+  min-width: 100px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: rgb(88, 88, 88);}
+
+.resumeWrapper{
+  padding-bottom: 40px;
+}
+
+.outroText {
+  display: flex;
+  align-items: center;
+}
+
+.aboutWrapper, .portfolioWrapper, .resumeWrapper {
+  margin: 0 5%
+}
+

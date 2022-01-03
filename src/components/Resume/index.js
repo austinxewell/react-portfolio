@@ -11,18 +11,27 @@ import proficienciesPdf from "../../assets/download/AustinEwellProficiencies2021
 
 function Resume() {
     return(
-        <div>
-            <h2 className="mx-2">Resume Info!</h2>
-            <p className="mx-1">Thank you so much for taking the time to check out my online portfolio!<br/><br/>
+        <div className='resumeWrapper'>
+            <h2 className="mx-2 resumeHeader">Resume Info!</h2>
+            <p className="outroText">Thank you so much for taking the time to check out my online portfolio!<br/><br/>
             I'd love the oppertunity to discuss ideas and future career moves. I have provided downloadable links to my resume and a list of my developer proficiencies.</p>
-            <ul>
-                <li><a className="resumeLi" href={resumePdf} download>Resume (.pdf)</a></li>
-                <li><a className="resumeLi" href={resumeDocx} download>Resume (.docx)</a></li>
-                <li><a className="resumeLi" href={resumeTxt} download>Resume (.txt)</a></li>
-                <li><a className="resumeLi" href={proficienciesPdf} download>Proficiencies (.pdf)</a></li>
-                <li><a className="resumeLi" href={proficienciesDocx} download>Proficiencies (.docx)</a></li>
-                <li><a className="resumeLi" href={proficienciesTxt} download>Proficiencies (.txt)</a></li>
-            </ul>
+
+            <div class="dropdown">
+                <button class="dropbtn">Resume</button>
+                    <div class="dropdown-content">
+                        <a className="resumeLi" href={resumePdf} download>.PDF</a>
+                        <a className="resumeLi" href={resumeDocx} download>.DOCX</a>
+                        <a className="resumeLi" href={resumeTxt} download>.TXT</a>
+                    </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn">Proficiencies</button>
+                    <div class="dropdown-content">
+                        <a className="resumeLi" href={proficienciesPdf} download>.PDF</a>
+                        <a className="resumeLi" href={proficienciesDocx} download>.DOCX</a>
+                        <a className="resumeLi" href={proficienciesTxt} download>.TXT</a>
+                    </div>
+            </div>
         </div>
     )
 }

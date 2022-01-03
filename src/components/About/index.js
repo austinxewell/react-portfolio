@@ -3,7 +3,7 @@ import aviImg from "../../assets/about/avi.jpg"
 
 function About() {
     return (
-        <section className="flex-row mx-2">
+        <section className="flex-row mx-2 aboutWrapper">
             <div>
                 <img className="avatar" src={aviImg}></img>
                 <h2>Who I Am and What I'm About!</h2>

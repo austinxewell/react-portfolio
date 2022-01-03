@@ -30,8 +30,6 @@ function Contact() {
       message = e.target.value
     }
   };
-  
-  
 
   const formId = 'zMe83qAe';
   const formSparkUrl = `https://submit-form.com/${formId}`
