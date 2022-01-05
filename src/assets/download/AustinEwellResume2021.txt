@@ -1,72 +1,60 @@
-﻿Austin Ewell
-5927 West Potterstone Circle, Herriman, UT 
-Austin.ewell86@gmail.com
-(801) 231-1314
+﻿Austin Ewell 
+Herriman, UT 84096        
+Phone: (801) 231-1314 | Email: austin.ewell86@gmail.com
+LinkedIn: https://www.linkedin.com/in/austin-ewell-01a60313a/ | GitHub: https://github.com/austinxewell | Portfolio: https://austinxewell.github.io/react-portfolio/
 
 
-Work Experience: 
+Summary
+Full stack web developer with background in team management and a track record of hard work. Described as adaptable, flexible, independent, motivated, organized, passionate, and problem-solver. These strengths combine to help to collaborate on projects, build a balanced and functional design, and contribute to the bottom line.
 
 
-* Self Employed eStore owner
-        Salt Lake City, Utah
-        June 2021- Current
-Growing my online marketplace started out as a hobby and grew into being my main financial support. I manage inventory, track sales, growth, labor, and profit. I lead 4 employees to continue our overall growth as a company. 
+Technical Skills
+Languages: JavaScript ES6+, HTML5, CSS3, SQL, NoSQL
+Applications: GitHub, MongoDB, MySQL, Insomnia, GraphyQL Playground, Robo3T, Heroku
+Tools: Web, Third-Party, and server side APIs, Node.js, Handlebars.js, Express.js, PWAs, React.js, GraphQL, Apollo, MERN, MVC, OOP, ORM, and State
 
 
-* Rocky Mountain Mechanical- HVAC Shop
-        Salt Lake City, Utah
-        Jan 2018 - June 2021
-Fast pace fabrication of a wide variety of material in the realm of HVAC, plumbing, electrical, and refrigeration. Knowledge of dimensions and mathematics to create square and round ducts using a wide range of machines and tools. Experience in welding, CNC, plasma cutters, spiral-helix and other common tools used with sheet metal fabrication.
+Projects
+Git-N-Shape
+GitHub: https://github.com/austinxewell/git-n-shape
+Deployed: https://austinxewell.github.io/git-n-shape        
+* Designed to pull data from APIs to generate a workout and meal plan for a user’s fitness journey. Plans can be saved to local storage and viewed later on.
+* Focused on exercise API content, local storage response, and project management.
+* HTML, CSS, JavaScript, Bulma, Gsap, ExerciseDB, Spoonacular/recipes
 
 
-* Victra Wireless- Sales Associate
-        Sandy City, Utah
-        July 2017 - Jan 2018
-Works over the phone and through email to inform customers off an excel sheet that they are eligible for new equipment. I show them the benefits of retaining the customer and upgrading their contracts/equipment. Works well with self motivation as a large majority of my income is commission based. Great communication and problem solving skills since I need to identify what about their account would appeal and what is currently costing them money. Great self discovery skills in understanding what may be costing customers more money and understand what/why it would be beneficial for them to switch their plan or equipment to to help save them money or fulfill their needs.
+Full Stack Marketplace
+GitHub: https://github.com/austinxewell/Full-Stack-Marketplace
+Deployed: https://mysterious-garden-73946.herokuapp.com/        
+* A social full stack ecommerce web application. Allows users to sign in/up, create listings, and purchase items.
+* Focused on Handlebars.js all front end, CSS, wireframe, data structure, and project management.
+* HTML, CSS, JavaScript, Bulma, Handlebars.js, Node.js, Express.js, Heroku, JawsDB, SQL, Cloudinary
+
+
+Tech Blog
+GitHub: https://github.com/austinxewell/tech-blog
+Deployed: https://warm-cliffs-74985.herokuapp.com/
+* Full Stack application designed to work as a blog site for all tech related issues. Allows  users to log in, post issues, and comment on user’s posts. Data is stored and pulled from a SQL DB.
+* Created this project solo.
+* HTML, CSS, JavaScript, Bootstrap, Bcrypt, Sessions, Express.js, Jest, Sequelize, SQL
+
+
+.
 
 
 
 
-* Hexcel - Lab Technician 
-            West Valley City, Utah 
-November, 2013 – July 2017 
-Fast paced data entry, The ability to test different types of composite samples, such as dry fabric, impregnated fabric and resin, print product manufacturing sheets for Line Operators along with testing data and procedures for lab use, Certified to legally approve or decline product, Extensive knowledge on using Labware, Excel, Word, Outlook, and Smart Solve, write non conformance sheets for failing product, operate multiple kinds of machinery, including; spectrophotometers, heated presses, air compressed ovens, sand blasters, Fischer Jon hot plates and resin scanners. Can safely handle multiple types of chemicals like MEK, NMP, ACETONE, etc, communicates between Line Operators, Line Supervision, other Lab Tech Specialists and Lab Supervision on testing procedures and product condition via phone, email, and person to person, Communicates product condition to Line Operator to ensure passing product, Pulls mechanical and chemical sampling for other departments. 
+Experience
+Self Employed Co-Owner                                                                 2020-2021
+Online Sales-(ActionStore)                                                                Herriman, UT
+Manage inventory, track sales, labor, profit, analyze trends, set promotions, and organize workflow. Lead 4 employees to continue overall growth. Completely self sufficient and profitable in less than 2 years.
+Key Accomplishments:
+* Grew this start up in 2  years to have overall gross sales of over 300 k this year.
+* Manage all employees and inventory consisting of 4 employees and over 10,000 products
+* Learned new technologies and trained employees on new technologies.
 
 
-Educational Experience: 
-* University of Utah Coding Bootcamp for Full Stack Web Development (currently enrolled)
-* Diploma from Herriman High School with 3.54 GPA
-* Salt Lake Community College, South Jordan, Utah 2015 – 2016 
- 
-Technical Skills:
-‣HTML, CSS, and GIT
-‣JavaScript
-‣Web APIs
-‣Third-Party APIs
-‣Server-Side APIs
-‣Node.js
-‣OOP
-‣Express.js
-‣SQL
-‣ORM
-‣MVC
-‣NoSQL
-‣Progressive Web Application
-‣React
-‣GraphQL
-‣MERN
-‣State
-Special Skills: 
-Natural leader; ability to communicate information and ideas clearly and concisely in writing. Can read and understand information presented in maps, charts, plans, blueprints. Has strong negotiation techniques and methods. Possesses the ability to deal with people in a manner which shows professionalism, tact, and sensitivity. Speaks clearly, concisely and effectively, listens to, and understands information and ideas as presented verbally or nonverbally. Can review and/or edit documents for accuracy and completeness. Knows how to lead the work of others by monitoring, reviewing, training co-workers, is willing to delegate work, can coordinate activities and tasks in the workplace. Has experience using Excel, Microsoft Word, Powerpoint, Microsoft Office. Punctual, responsible and reliable.
-
-
-Personal References
-        Tyler Howes (801) 750-9901
-        Christopher McColgan (801) 867-9938
-        Shannon Collins (801) 231-0426
-
-
-Professional References
-        Austin Wilke (385) 237-7820
-        Jaden Jorgenson (801) 834-8666
-        Tanner Heesch (208) 353-7433
+Education
+Bootcamp Certificate in Full Stack Web Development:
+University of Utah, Salt Lake City, UT
+24-week intensive program focused on gaining technical programming skills in HTML5, CSS3, JavaScript, jQuery, Bootstrap, web APIs, Third Party APIs, Server-Side APIs , Node.js, OOP, MVC, ORM, SQL, NoSQL, MongoDB, Express.js, Handelbars.js, React.js, PWA’s, GraphQL, MERN, State.
