@@ -168,7 +168,7 @@ fieldset {
   border-radius: 50%;
   padding-top: 10px;
   padding-bottom: 8px;
-  filter: drop-shadow(16px 16px 10px black);
+  filter: drop-shadow(20px 20px 15px black);
   float: left;
   margin-right: 30px;
 }

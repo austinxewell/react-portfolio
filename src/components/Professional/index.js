@@ -1,5 +1,5 @@
 import React from "react";
-import aviImg from "../../assets/about/avi.jpg"
+import aviImg from "../../assets/about/avi.png"
 
 function Professional() {
     return (
