@@ -2,7 +2,7 @@
     {
         "name": "adoptABLE",
         "repoLink": "https://github.com/austinxewell/adoptABLE",
-        "description": "With domestic violence cases rising by 25-50% in 2021, adoptABLE aims to provide assistance to victims and their families. Victims can create accounts for seeking assistance and donors can adopt families to assist. Some of the technologies used in this project include React, apollo, GraphQL, Node.js, Express.js, MongoDB, Mongoose, and Stripe",
+        "description": "adoptABLE aims to provide assistance to domestic violence victims and their families. Victims can create accounts for seeking assistance and donors can adopt families to assist. Some of the technologies used in this project include React, apollo, GraphQL, Node.js, Express.js, MongoDB, Mongoose, and Stripe",
         "deployLink": "https://adoptable-dv.herokuapp.com/",
         "imgAlt": "adoptABLE",
         "imgName": "adoptABLEImg"
