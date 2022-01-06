@@ -37,6 +37,7 @@ function Contact() {
   const submitForm = async (event) => {
     event.preventDefault();
     await postSubmission();
+    alert("Your Message has been sent!");
   };
 
   const postSubmission = async () => {
