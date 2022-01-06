@@ -25,8 +25,7 @@
   # Contributing
   There are no other contributers to this project.
   # Tests
-To run test use `npm test`. npm test Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+  No test were created for this web application.
   # Questions
   * GitHub user: austinxewell
   * https://github.com/austinxewell
