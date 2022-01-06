@@ -59,9 +59,11 @@ h2 {
 
 h3 {
   font-size: 1.75rem;
-  text-decoration: underline var(--dark);
-  font-family: 'Rock Salt', cursive;
+  font-family: 'Rokkitt', serif;
+  font-weight: bold;
+  font-size: 40px;
   text-align: center;
+  text-decoration: underline;
 }
 
 p {
@@ -146,7 +148,7 @@ fieldset {
 
 .projectDescription {
   width: 270px;
-  font-size: small;
+  font-size: 14px;
   margin: auto;
 }
 
@@ -257,7 +259,9 @@ button:hover {
 }
 
 .specialNotes {
-  font-family: 'Rock Salt', cursive;
+  font-family: 'Rokkitt', serif;
+  font-size: 23px;
+  text-decoration: underline;
 }
 
 .resumeLi {
@@ -333,7 +337,13 @@ button:hover {
   align-items: center;
 }
 
-.aboutWrapper, .portfolioWrapper, .resumeWrapper {
+.aboutWrapper, .portfolioWrapper, .resumeWrapper, .personalWrapper {
   margin: 0 5%
 }
 
+.Img {
+  float: left;
+  width: 450px;
+  height: 500px;
+  margin-right: 15px;
+}

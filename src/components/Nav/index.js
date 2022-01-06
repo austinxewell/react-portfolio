@@ -1,7 +1,7 @@
 import React from "react";
 
 function Nav(props) {
-    const tabs = ['About', 'Portfolio', 'Contact', 'Resume'];
+    const tabs = ['Professional', 'Personal', 'Portfolio', 'Contact', 'Resume'];
 
   return (
     <nav className="flex-row px-1 navBackground">

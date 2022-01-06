@@ -2,7 +2,7 @@
     {
         "name": "adoptABLE",
         "repoLink": "https://github.com/austinxewell/adoptABLE",
-        "description": "With domestic violence cases rising by 25-50% in 2021, adoptABLE aims to provide assistance to victims and their families. Victims can create accounts for seeking assistance and donors can adopt families to assist.",
+        "description": "With domestic violence cases rising by 25-50% in 2021, adoptABLE aims to provide assistance to victims and their families. Victims can create accounts for seeking assistance and donors can adopt families to assist. Some of the technologies used in this project include React, apollo, GraphQL, Node.js, Express.js, MongoDB, Mongoose, and Stripe",
         "deployLink": "https://adoptable-dv.herokuapp.com/",
         "imgAlt": "adoptABLE",
         "imgName": "adoptABLEImg"
@@ -10,7 +10,7 @@
     {
         "name": "Tech Blog",
         "repoLink": "https://github.com/austinxewell/tech-blog",
-        "description": "Tech Blog, a full Stack application designed to work as a blog site for all tech related issues. You can log in, post an issue, and comment on other users posts. Data is stored and pulled from a SQL DB.",
+        "description": "Tech Blog, a full Stack application designed to work as a blog site for all tech related issues. You can log in, post an issue, and comment on other users posts. Data is stored and pulled from a SQL database. This was build in the MVC stack and some of the technologies used include Handlebars, SQL, Express.js, and REST API's",
         "deployLink": "https://warm-cliffs-74985.herokuapp.com/",
         "imgAlt": "Tech Blog",
         "imgName": "techBlogImg"
@@ -18,7 +18,7 @@
     {
         "name": "Git-N-Shape",
         "repoLink": "https://github.com/austinxewell/git-n-shape",
-        "description": "Git-N-Shape, a full Stack project designed to pull data from a web API to help generate a workout routine and meal plan for someone starting their fitness experience. Plans can be saved to your local storage.",
+        "description": "Git-N-Shape, a full Stack project designed to pull data from a web API to help generate a workout routine and meal plan for someone starting their fitness experience. Plans can be saved to your local storage. Some of the technologies used in this project include Bulma framework, Gsap animation, ExerciseDB, Spoonacular/recipes",
         "deployLink": "https://austinxewell.github.io/git-n-shape/",
         "imgAlt": "Git-N-Shape",
         "imgName": "gitNShapeImg"
@@ -26,7 +26,7 @@
     {
         "name": "Deep Thoughts",
         "repoLink": "https://github.com/austinxewell/deep-thoughts",
-        "description": "Deep Thoughts is a full stack web application built in the MERN stack. It is designed like a typical blog site where you can create users, create thoughts, add reactions to thoughts and even build your friends list.",
+        "description": "Deep Thoughts is a full stack web application built in the MERN stack. It is designed as a blog site where you can create users, thoughts, add reactions to thoughts and even build your friends list. This application includes technologies such as conditional rendering, MongoDB, Express.js, React, Node.js, Bcrypt, Apollo, and Faker",
         "deployLink": "https://limitless-shelf-82829.herokuapp.com/",
         "imgAlt": "Deep Thoughts",
         "imgName": "deepThoughtsImg"
@@ -34,7 +34,7 @@
     {
         "name": "Weather Dash",
         "repoLink": "https://github.com/austinxewell/weather-dashboard",
-        "description": "Weather Dash, this project is designed to display the use of the moment package, pulling data from a web API, storing data to the local host, while also making local host data a reusable search history.",
+        "description": "Weather Dash, this project is designed to display the use of the moment package, pulling data from a web API, storing data to the local storage, while also making local host data a reusable search history. Some technologies used in this project include moment, API's, local storage minipulation, Bulma , and DOM minipulation ",
         "deployLink": "https://austinxewell.github.io/weather-dashboard/",
         "imgAlt": "Weather Dashboard",
         "imgName": "weatherDashboardImg"
@@ -42,7 +42,7 @@
     {
         "name": "Budget Track",
         "repoLink": "https://github.com/austinxewell/Budget-Tracker-PWA",
-        "description": "Budget Tracker is a PWA application that will work offline and update when connection is established. You are able to name your transaction and track wether it adds or subtracts funds to your budget plan.",
+        "description": "Budget Tracker is a PWA application that will work offline and update when connection is established. You are able to name your transaction and track whether it adds or subtracts funds to your budget plan. This applications uses technologies such as web manifests, service workers, is installable, and reactive on input.",
         "deployLink": "https://sleepy-beach-30576.herokuapp.com/",
         "imgAlt": "Budget Tracker",
         "imgName": "budgetTrackerImg"
@@ -51,7 +51,7 @@
     {
         "name": "FS Market",
         "repoLink": "https://github.com/austinxewell/Full-Stack-Marketplace",
-        "description": "Full Stack Marketplace is a social full stack ecommerce web application. It allows users to sign in/up, create listings, and purchase items. It uses SQLDB to store data and API tech to store and pull uploaded photos.",
+        "description": "Full Stack Marketplace is a social full stack ecommerce web application. It allows users to sign in/up, create listings, and purchase items. It uses SQL database to store data and API tech to store and pull uploaded photos. Some of the technologies used include Hanldebars, Node.js, Express.js, JawsDB, SQL, Express-FileUpload and Cloudinary ",
         "deployLink": "https://mysterious-garden-73946.herokuapp.com/",
         "imgAlt": "Full Stack Marketplace",
         "imgName": "fullStackMarketplaceImg"
@@ -59,7 +59,7 @@
     {
         "name": "Emp Tracker",
         "repoLink": "https://github.com/austinxewell/employee-tracker",
-        "description": "Employee Tracker is a SQL DB command line application designed to help create structure in your employee/company data. You can create, delete, change, and modify relations all in a command line setting.",
+        "description": "Employee Tracker is a SQL DB command line application designed to help create structure in your employee/company data. You can create, delete, change, and modify relations all in a command line setting. This is designed to show my ability use create a SQL database, manipulate the database, and update the database using a command line.",
         "deployLink": "https://watch.screencastify.com/v/ZK4D21GFZMwdPbj6QopQ",
         "imgAlt": "Employee Tracker",
         "imgName": "employeeTrackerImg"
