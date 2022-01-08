@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.65c93c86.chunk.css",
-    "main.js": "/react-portfolio/static/js/main.98306f09.chunk.js",
-    "main.js.map": "/react-portfolio/static/js/main.98306f09.chunk.js.map",
+    "main.js": "/react-portfolio/static/js/main.ea37e230.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.ea37e230.chunk.js.map",
     "runtime-main.js": "/react-portfolio/static/js/runtime-main.8ad43f92.js",
     "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.8ad43f92.js.map",
     "static/js/2.19b13ad4.chunk.js": "/react-portfolio/static/js/2.19b13ad4.chunk.js",
@@ -21,7 +21,7 @@
     "static/media/AustinEwellResume2021.eda87b54.docx": "/react-portfolio/static/media/AustinEwellResume2021.eda87b54.docx",
     "static/media/StGeorge.eb4a8115.jpg": "/react-portfolio/static/media/StGeorge.eb4a8115.jpg",
     "static/media/adoptABLEImg.jpg": "/react-portfolio/static/media/adoptABLEImg.fc4ff047.jpg",
-    "static/media/avi.b3165423.png": "/react-portfolio/static/media/avi.b3165423.png",
+    "static/media/avi.ebc6c26a.png": "/react-portfolio/static/media/avi.ebc6c26a.png",
     "static/media/budgetTrackerImg.jpg": "/react-portfolio/static/media/budgetTrackerImg.b670f96d.jpg",
     "static/media/deepThoughtsImg.jpg": "/react-portfolio/static/media/deepThoughtsImg.b8eaae14.jpg",
     "static/media/employeeTrackerImg.jpg": "/react-portfolio/static/media/employeeTrackerImg.9c5d7480.jpg",
@@ -40,6 +40,6 @@
     "static/js/runtime-main.8ad43f92.js",
     "static/js/2.19b13ad4.chunk.js",
     "static/css/main.65c93c86.chunk.css",
-    "static/js/main.98306f09.chunk.js"
+    "static/js/main.ea37e230.chunk.js"
   ]
 }
