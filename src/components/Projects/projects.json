@@ -8,6 +8,14 @@
         "imgName": "adoptABLEImg"
     },
     {
+        "name": "CD Photo",
+        "repoLink": "https://github.com/austinxewell/CrystaDianePhotography",
+        "description": "This is a profession photography website created in react. It is designed to showcase Crysta's skills in creating quality photography work. It uses libraries like react-elastic-carousel, react-modal-image, and axios to help create a fun UI. This web application is completely mobile friendly.",
+        "deployLink": "https://austinxewell.github.io/CrystaDianePhotography/",
+        "imgAlt": "Crysta Diane Photography",
+        "imgName": "CrystaDianePhotographyImg"
+    },
+    {
         "name": "Tech Blog",
         "repoLink": "https://github.com/austinxewell/tech-blog",
         "description": "Tech Blog, a full Stack application designed to work as a blog site for all tech related issues. You can log in, post an issue, and comment on other users posts. Data is stored and pulled from a SQL database. This was build in the MVC stack and some of the technologies used include Handlebars, SQL, Express.js, and REST API's",
