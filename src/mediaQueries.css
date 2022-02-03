@@ -1,5 +1,60 @@
 @media only screen and (max-width: 1025px) {
+    .navBackground {
+        height: 80px;
+    }
+
+    .hambergerMenu {
+        background-color: rgb(0,0,0,.5);
+        border-radius: 10px;
+        text-align: center;
+        padding: 2px;
+        padding-left: 5px;
+        margin-right: 10px;
+        position: absolute;
+        top: .25em;
+        right: 0;
+        display: block ;
+        cursor: pointer;
+        color: var(--light);
+    }
+
+    #toggle {
+        display: none;
+    }
+
+    #toggle:checked + .navLayout {
+        display: block;
+        height: auto;
+        background-color: #333333;
+        padding-top: 10px;
+    }
+    
+    .nav-link {
+        display: block;
+        padding: 0px 50px;
+        background-color: #333333;
+    }
+
+    .nav-linkActive {
+        background-color: rgba(241, 241, 241, 0.795);
+        color: var(--dark);
+    }
+
+    .navLayout {
+        display: block;
+        text-align: center;
+        width: auto;
+        display: none;
+        margin-bottom: 10px;
+        margin-top: 80px;
+        z-index: 1;
+    }
+    
     h1 {
-        font-size: 100px;
+        display: none;
+    }
+
+    .slogan {
+        display: none;
     }
   }
