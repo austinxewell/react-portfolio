@@ -1,10 +1,15 @@
-@media only screen and (max-width: 1025px) {
+@media only screen and (max-width: 900px) {
     .navBackground {
         height: 80px;
     }
 
+    .slogan {
+        font-size: 15px;
+        margin-top: -10px;
+    }
+
     .hambergerMenu {
-        background-color: rgb(0,0,0,.5);
+        background-color: rgb(0,0,0,1);
         border-radius: 10px;
         text-align: center;
         padding: 2px;
@@ -16,10 +21,6 @@
         display: block ;
         cursor: pointer;
         color: var(--light);
-    }
-
-    #toggle {
-        display: none;
     }
 
     #toggle:checked + .navLayout {
@@ -51,10 +52,56 @@
     }
     
     h1 {
-        display: none;
+        font-size: 40px;
+    }
+
+    .avatar {
+        width: 240px;
+    }
+  }
+
+  @media only screen and (max-width: 773px) {
+    .second-list-proficiencies {
+        margin-top: -22px;
+    }
+  }
+
+  @media only screen and (max-width: 710px) {
+    .slogan {
+        font-size: 12px;
+        margin-left: 10px;
+    }
+  }
+
+  @media only screen and (max-width: 645px) {
+    .avatar {
+        float: none;
+        display: block;
+        margin: 0 auto;
+    }
+
+    h2 {
+        text-align: center;
+    }
+    
+    .branding-statement {
+        text-align: center;
+    }
+  }
+
+  @media only screen and (max-width: 598px) {
+    .navLayout {
+        margin-top: 0px;
+    }
+  }
+
+  @media only screen and (max-width: 420px) {
+    h1 {
+        margin-left: 5px;
+        font-size: 35px;
     }
 
     .slogan {
-        display: none;
+        font-size: 9px;
     }
   }
