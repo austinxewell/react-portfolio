@@ -143,4 +143,15 @@
     .hambergerMenu {
         font-size: 40px;
     }
+
+    .projectDescription {
+        height: 220px;
+      }
+
+    .portfolio-img {
+        margin-bottom: 10px;
+    }
+    
+    .portfolio-into-text {
+    }
   }
