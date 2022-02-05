@@ -384,3 +384,10 @@ button:hover {
 .personal-info {
   margin-top: 10px;
 }
+
+.submit-button {
+  width: 250px;
+  font-size: 20px;
+  color: var(--light);
+  background-color: #333333;
+}

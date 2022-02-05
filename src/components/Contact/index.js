@@ -66,15 +66,15 @@ function Contact() {
                 <h2>Contact Me!</h2>
             </legend>
             <form className="contactForm" id="contact-form" onSubmit={submitForm}>
-                <div>
+                <div className='name-input'>
                     <label htmlFor="name">Name:</label>
                     <input type="text" name="name" defaultValue={name} onChange={handleChange} />
                 </div>
-                <div>
+                <div className='email-input'>
                     <label htmlFor="email">Email:</label>
                     <input type="email" name="email" defaultValue={email} onChange={handleChange} />
                 </div>
-                <div>
+                <div className='message-input'>
                     <label htmlFor="message">Message:</label><br/>
                     <textarea className="messageText" name="message" rows="5" defaultValue={message} onChange={handleChange} />
                 </div>
@@ -83,7 +83,7 @@ function Contact() {
                         <p className="errorText">{errorMessage}</p>
                     </div>
                 )}
-                <button type="submit">Submit</button>
+                <button type="submit" className='submit-button'>Submit</button>
             </form>
         </fieldset>
 

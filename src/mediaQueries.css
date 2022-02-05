@@ -124,6 +124,15 @@
         height: auto;
         margin: none;
     }
+
+    .name-input,
+    .email-input {
+        text-align: left;
+    }
+
+    textarea {
+        width: 250px !important;
+    }
   }
 
   @media only screen and (max-width: 420px) {
@@ -150,8 +159,5 @@
 
     .portfolio-img {
         margin-bottom: 10px;
-    }
-    
-    .portfolio-into-text {
     }
   }
