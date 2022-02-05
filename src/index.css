@@ -194,22 +194,20 @@ footer {
 
 .icon {
   height: 50px;
-  filter: drop-shadow(4px 4px  16px var(--light));
   margin-left: 4px;
 }
 
 .iconLayout {
-float: none;
-text-align: center;
+display: flex;
+justify-content: center;
 padding-top: 40px;
 }
 
 .copyright {
-float: right;
-margin-right: 10px;
+margin-left: 10px;
 margin-top: 15px;
 font-size: 13px;
-text-shadow: 2px 2px 8px var(--light);
+text-shadow: 2px 2px 12px var(--light);
 }
 
 .messageText {

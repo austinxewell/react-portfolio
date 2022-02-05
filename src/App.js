@@ -8,6 +8,7 @@ import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
 import Resume from './components/Resume';
 import Personal from './components/Personal';
+import Footer from './components/Footer';
 
 function App() {
   const [currentPage, handlePageChange] = useState('Professional');
@@ -44,6 +45,7 @@ function App() {
           </Switch>
         </div>
       </Router>
+      <Footer />
     </body>
   );
 }
