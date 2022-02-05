@@ -195,6 +195,8 @@ footer {
 .icon {
   height: 50px;
   margin-left: 4px;
+  box-shadow: 2px 2px 14px var(--light);
+  border-radius: 50%;
 }
 
 .iconLayout {
@@ -317,11 +319,19 @@ button:hover {
   display: block;
 }
 
-.dropdown-content a:hover {background-color: #ddd;}
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
 
-.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover
+.dropdown-content {
+  display: block;
+}
 
-.dropdown:hover .dropbtn {background-color: rgb(88, 88, 88);}
+.dropdown:hover
+.dropbtn {
+  background-color: rgb(88, 88, 88);
+}
 
 .resumeWrapper{
   padding-bottom: 40px;
@@ -332,7 +342,10 @@ button:hover {
   align-items: center;
 }
 
-.aboutWrapper, .portfolioWrapper, .resumeWrapper, .personalWrapper {
+.aboutWrapper,
+.portfolioWrapper,
+.resumeWrapper,
+.personalWrapper {
   margin: 0 5%
 }
 
@@ -341,6 +354,7 @@ button:hover {
   width: 450px;
   height: 500px;
   margin-right: 15px;
+  border-radius: 10px;
 }
 
 #proficiencies {
@@ -353,4 +367,20 @@ button:hover {
 
 .hambergerMenu {
   display: none;
+}
+
+.rec-pagination {
+  display: none !important;
+}
+
+.rec-carousel {
+  margin-bottom: 10px;
+}
+
+.image-slide-text {
+  display: none;
+}
+
+.personal-info {
+  margin-top: 10px;
 }

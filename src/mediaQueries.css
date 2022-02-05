@@ -1,3 +1,11 @@
+@media only screen and (max-width: 1450px) {
+    .Img {
+        display: block;
+        float: none !important;
+        margin: auto !important;
+    }
+}
+
 @media only screen and (max-width: 900px) {
     .navBackground {
         height: 80px;
@@ -65,15 +73,28 @@
         margin-top: -22px;
     }
 
-    .icon-wrapper {
-        
-    }
   }
 
   @media only screen and (max-width: 710px) {
     .slogan {
         font-size: 12px;
         margin-left: 10px;
+    }
+
+    .rec-arrow {
+        display: none;
+    }
+
+    .image-slide-text {
+        display: block;
+        margin-top: 10px;
+        margin-bottom: 5px;
+        text-align: center;
+        font-size: 16px;
+    }
+    footer {
+        background-image: none;
+        background-color: #333333;
     }
   }
 
@@ -97,9 +118,20 @@
     .navLayout {
         margin-top: 0px;
     }
+
+    .Img {
+        width: 100%;
+        height: auto;
+        margin: none;
+    }
   }
 
   @media only screen and (max-width: 420px) {
+    body {
+        font-size: 14px;
+        font-family: 'Catamaran', sans-serif;
+    }
+
     h1 {
         margin-left: 5px;
         font-size: 35px;
@@ -107,5 +139,8 @@
 
     .slogan {
         font-size: 9px;
+    }
+    .hambergerMenu {
+        font-size: 40px;
     }
   }
